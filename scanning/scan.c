@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int no1, no2, result;
+    int num_1, num_2, result;
     printf("Enter number 1:");
-    scanf("%d", &no1);
+    scanf("%d", &num_1);
     printf("Enter number 2:");
-    scanf("%d", &no2);
+    scanf("%d", &num_2);
 
-    result = no1 + no2;
+    result = num_1 + num_2;
     printf("The result is %d", result);
 
     return 0;
